@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-2","id":1},{"content":"pool-1-thread-1","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4}];
+var items = [{"id":1,"group":1,"content":"jsonplaceholderalbum\/get\/album-get[1:3]","start":1701328469885,"end":1701328471567,"title":"jsonplaceholderalbum\/get\/album-get[1:3] 02:14:29.885-02:14:31.567 Get an album"},{"id":2,"group":2,"content":"jsonplaceholderalbum\/put\/album-put[1:3]","start":1701328471486,"end":1701328471824,"title":"jsonplaceholderalbum\/put\/album-put[1:3] 02:14:31.486-02:14:31.824 Edit a album"},{"id":3,"group":3,"content":"jsonplaceholderalbum\/head\/album-head[1:3]","start":1701328469885,"end":1701328471471,"title":"jsonplaceholderalbum\/head\/album-head[1:3] 02:14:29.885-02:14:31.471 Get headers (HEAD)"},{"id":4,"group":2,"content":"jsonplaceholderalbum\/delete\/album-delete[1:3]","start":1701328469885,"end":1701328471468,"title":"jsonplaceholderalbum\/delete\/album-delete[1:3] 02:14:29.885-02:14:31.468 Delete a user"},{"id":5,"group":4,"content":"jsonplaceholderalbum\/post\/album-post[1:3]","start":1701328469885,"end":1701328471556,"title":"jsonplaceholderalbum\/post\/album-post[1:3] 02:14:29.885-02:14:31.556 Post an album"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

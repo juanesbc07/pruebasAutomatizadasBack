@@ -1,0 +1,20 @@
+jsonplaceholder/get/JsonPlaceRunner.java
+ jsonplaceholder.get.JsonPlaceRunner
+jsonplaceholderalbum/head/AlbumHeadRunner.java
+ jsonplaceholderalbum.head.AlbumHeadRunner
+users/get/UserGetRunner.java
+ users.get.UserGetRunner
+jsonplaceholderalbum/put/AlbumPutRunner.java
+ jsonplaceholderalbum.put.AlbumPutRunner
+jsonplaceholderalbum/delete/AlbumDeleteRunner.java
+ jsonplaceholderalbum.delete.AlbumDeleteRunner
+jsonplaceholderalbum/get/AlbumGetRunner.java
+ jsonplaceholderalbum.get.AlbumGetRunner
+users/delete/UserDeleteRunner.java
+ users.delete.UserDeleteRunner
+jsonplaceholderalbum/post/AlbumPostRunner.java
+ jsonplaceholderalbum.post.AlbumPostRunner
+jsonplaceholderalbum/ManagementTest.java
+ jsonplaceholderalbum.ManagementTest
+users/ManagementTest.java
+ users.ManagementTest

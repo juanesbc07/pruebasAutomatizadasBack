@@ -1,0 +1,608 @@
+ë02:14:28.668 [Test worker] INFO  com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1701328468665
+_02:14:28.682 [Test worker] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+B02:14:30.526 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+@1 > DELETE https://jsonplaceholder.typicode.com/albums/1/photos
+'1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+:1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+"1 > Accept-Encoding: gzip,deflate
+
+
+B02:14:30.526 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+>1 > POST https://jsonplaceholder.typicode.com/albums/1/photos
+'1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+:1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+"1 > Accept-Encoding: gzip,deflate
+
+
+B02:14:30.526 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+=1 > GET https://jsonplaceholder.typicode.com/albums/1/photos
+'1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+:1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+"1 > Accept-Encoding: gzip,deflate
+
+
+B02:14:30.526 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+>1 > HEAD https://jsonplaceholder.typicode.com/albums/1/photos
+'1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+:1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+"1 > Accept-Encoding: gzip,deflate
+
+
+\02:14:31.256 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 721
+1 < 200
+(1 < Date: Thu, 30 Nov 2023 07:14:31 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Connection: keep-alive
+ÿ1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701124126&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ZTT1CmrofUkB%2FdFzC9VULGkv3M9YJT%2FHtbVLAzjNUJ4%3D"}]}
+Ø1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701124126&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ZTT1CmrofUkB%2FdFzC9VULGkv3M9YJT%2FHtbVLAzjNUJ4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+"1 < X-Ratelimit-Reset: 1701124183
+"1 < Vary: Origin, Accept-Encoding
++1 < Access-Control-Allow-Credentials: true
+!1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+$1 < X-Content-Type-Options: nosniff
+/1 < Etag: W/"29ea-xRmZChDsICXJWN2RDibpSXwTgbc"
+1 < Content-Encoding: gzip
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 12311
+1 < Server: cloudflare
+!1 < CF-RAY: 82e14b411eee7472-MIA
+!1 < alt-svc: h3=":443"; ma=86400
+
+
+\02:14:31.256 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 725
+1 < 200
+(1 < Date: Thu, 30 Nov 2023 07:14:31 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+"1 < X-Ratelimit-Reset: 1699626170
+"1 < Vary: Origin, Accept-Encoding
++1 < Access-Control-Allow-Credentials: true
+!1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+$1 < X-Content-Type-Options: nosniff
+/1 < Etag: W/"29ea-xRmZChDsICXJWN2RDibpSXwTgbc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 3679
+ó1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vNvfa29Yp5EVlF170V%2BXlq70WWkDNk3WBSEs6WfsM8RcwJoiwvyhfZejTAl3giKiVL73O17r%2Fcf6W5y51A%2FitTTcNJgLU8y2fkwGj2QPIIa24NLfYUf5%2Bwe8jPW6cccnSZHKYk2jwAT3e%2BsMWuMS"}],"group":"cf-nel","max_age":604800}
+F1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+!1 < CF-RAY: 82e14b41183909aa-MIA
+!1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "albumId": 1,
+    "id": 1,
+C    "title": "accusamus beatae ad facilis cum similique qui sunt",
+5    "url": "https://via.placeholder.com/600/92c952",
+=    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+7    "title": "reprehenderit est deserunt velit ipsam",
+5    "url": "https://via.placeholder.com/600/771796",
+=    "thumbnailUrl": "https://via.placeholder.com/150/771796"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+?    "title": "officia porro iure quia iusto qui ipsa ut modi",
+5    "url": "https://via.placeholder.com/600/24f355",
+=    "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+M    "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
+5    "url": "https://via.placeholder.com/600/d32776",
+=    "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+D    "title": "natus nisi omnis corporis facere molestiae rerum in",
+5    "url": "https://via.placeholder.com/600/f66b97",
+=    "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+8    "title": "accusamus ea aliquid et amet sequi nemo",
+5    "url": "https://via.placeholder.com/600/56a8c2",
+=    "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+Q    "title": "officia delectus consequatur vero aut veniam explicabo molestias",
+5    "url": "https://via.placeholder.com/600/b0f7cc",
+=    "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+G    "title": "aut porro officiis laborum odit ea laudantium corporis",
+5    "url": "https://via.placeholder.com/600/54176f",
+=    "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+  },
+  {
+    "albumId": 1,
+    "id": 9,
+'    "title": "qui eius qui autem sed",
+5    "url": "https://via.placeholder.com/600/51aa97",
+=    "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+  },
+  {
+    "albumId": 1,
+    "id": 10,
+.    "title": "beatae et provident et ut vel",
+5    "url": "https://via.placeholder.com/600/810b14",
+=    "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+  },
+  {
+    "albumId": 1,
+    "id": 11,
+/    "title": "nihil at amet non hic quia qui",
+5    "url": "https://via.placeholder.com/600/1ee8a4",
+=    "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
+  },
+  {
+    "albumId": 1,
+    "id": 12,
+V    "title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
+5    "url": "https://via.placeholder.com/600/66b7d2",
+=    "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
+  },
+  {
+    "albumId": 1,
+    "id": 13,
+1    "title": "repudiandae iusto deleniti rerum",
+5    "url": "https://via.placeholder.com/600/197d29",
+=    "thumbnailUrl": "https://via.placeholder.com/150/197d29"
+  },
+  {
+    "albumId": 1,
+    "id": 14,
+9    "title": "est necessitatibus architecto ut laborum",
+4    "url": "https://via.placeholder.com/600/61a65",
+<    "thumbnailUrl": "https://via.placeholder.com/150/61a65"
+  },
+  {
+    "albumId": 1,
+    "id": 15,
+?    "title": "harum dicta similique quis dolore earum ex qui",
+5    "url": "https://via.placeholder.com/600/f9cee5",
+=    "thumbnailUrl": "https://via.placeholder.com/150/f9cee5"
+  },
+  {
+    "albumId": 1,
+    "id": 16,
+S    "title": "iusto sunt nobis quasi veritatis quas expedita voluptatum deserunt",
+5    "url": "https://via.placeholder.com/600/fdf73e",
+=    "thumbnailUrl": "https://via.placeholder.com/150/fdf73e"
+  },
+  {
+    "albumId": 1,
+    "id": 17,
+4    "title": "natus doloribus necessitatibus ipsa",
+5    "url": "https://via.placeholder.com/600/9c184f",
+=    "thumbnailUrl": "https://via.placeholder.com/150/9c184f"
+  },
+  {
+    "albumId": 1,
+    "id": 18,
+O    "title": "laboriosam odit nam necessitatibus et illum dolores reiciendis",
+5    "url": "https://via.placeholder.com/600/1fe46f",
+=    "thumbnailUrl": "https://via.placeholder.com/150/1fe46f"
+  },
+  {
+    "albumId": 1,
+    "id": 19,
+8    "title": "perferendis nesciunt eveniet et optio a",
+5    "url": "https://via.placeholder.com/600/56acb2",
+=    "thumbnailUrl": "https://via.placeholder.com/150/56acb2"
+  },
+  {
+    "albumId": 1,
+    "id": 20,
+a    "title": "assumenda voluptatem laboriosam enim consequatur veniam placeat reiciendis error",
+5    "url": "https://via.placeholder.com/600/8985dc",
+=    "thumbnailUrl": "https://via.placeholder.com/150/8985dc"
+  },
+  {
+    "albumId": 1,
+    "id": 21,
+     "title": "ad et natus qui",
+5    "url": "https://via.placeholder.com/600/5e12c6",
+=    "thumbnailUrl": "https://via.placeholder.com/150/5e12c6"
+  },
+  {
+    "albumId": 1,
+    "id": 22,
+B    "title": "et ea illo et sit voluptas animi blanditiis porro",
+5    "url": "https://via.placeholder.com/600/45601a",
+=    "thumbnailUrl": "https://via.placeholder.com/150/45601a"
+  },
+  {
+    "albumId": 1,
+    "id": 23,
+'    "title": "harum velit vero totam",
+5    "url": "https://via.placeholder.com/600/e924e6",
+=    "thumbnailUrl": "https://via.placeholder.com/150/e924e6"
+  },
+  {
+    "albumId": 1,
+    "id": 24,
+'    "title": "beatae officiis ut aut",
+5    "url": "https://via.placeholder.com/600/8f209a",
+=    "thumbnailUrl": "https://via.placeholder.com/150/8f209a"
+  },
+  {
+    "albumId": 1,
+    "id": 25,
+1    "title": "facere non quis fuga fugit vitae",
+5    "url": "https://via.placeholder.com/600/5e3a73",
+=    "thumbnailUrl": "https://via.placeholder.com/150/5e3a73"
+  },
+  {
+    "albumId": 1,
+    "id": 26,
+/    "title": "asperiores nobis voluptate qui",
+5    "url": "https://via.placeholder.com/600/474645",
+=    "thumbnailUrl": "https://via.placeholder.com/150/474645"
+  },
+  {
+    "albumId": 1,
+    "id": 27,
+?    "title": "sit asperiores est quos quis nisi veniam error",
+5    "url": "https://via.placeholder.com/600/c984bf",
+=    "thumbnailUrl": "https://via.placeholder.com/150/c984bf"
+  },
+  {
+    "albumId": 1,
+    "id": 28,
+R    "title": "non neque eligendi molestiae repudiandae illum voluptatem qui aut",
+5    "url": "https://via.placeholder.com/600/392537",
+=    "thumbnailUrl": "https://via.placeholder.com/150/392537"
+  },
+  {
+    "albumId": 1,
+    "id": 29,
+0    "title": "aut ipsam quos ab placeat omnis",
+5    "url": "https://via.placeholder.com/600/602b9e",
+=    "thumbnailUrl": "https://via.placeholder.com/150/602b9e"
+  },
+  {
+    "albumId": 1,
+    "id": 30,
+<    "title": "odio enim voluptatem quidem aut nihil illum",
+5    "url": "https://via.placeholder.com/600/372c93",
+=    "thumbnailUrl": "https://via.placeholder.com/150/372c93"
+  },
+  {
+    "albumId": 1,
+    "id": 31,
++    "title": "voluptate voluptates sequi",
+5    "url": "https://via.placeholder.com/600/a7c272",
+=    "thumbnailUrl": "https://via.placeholder.com/150/a7c272"
+  },
+  {
+    "albumId": 1,
+    "id": 32,
+9    "title": "ad enim dignissimos voluptatem similique",
+5    "url": "https://via.placeholder.com/600/c70a4d",
+=    "thumbnailUrl": "https://via.placeholder.com/150/c70a4d"
+  },
+  {
+    "albumId": 1,
+    "id": 33,
+=    "title": "culpa ipsam nobis qui fuga magni et mollitia",
+5    "url": "https://via.placeholder.com/600/501fe1",
+=    "thumbnailUrl": "https://via.placeholder.com/150/501fe1"
+  },
+  {
+    "albumId": 1,
+    "id": 34,
+M    "title": "vitae est facere quia itaque adipisci perferendis id maiores",
+5    "url": "https://via.placeholder.com/600/35185e",
+=    "thumbnailUrl": "https://via.placeholder.com/150/35185e"
+  },
+  {
+    "albumId": 1,
+    "id": 35,
+,    "title": "tenetur minus voluptatum et",
+5    "url": "https://via.placeholder.com/600/c96cad",
+=    "thumbnailUrl": "https://via.placeholder.com/150/c96cad"
+  },
+  {
+    "albumId": 1,
+    "id": 36,
+%    "title": "expedita rerum eaque",
+5    "url": "https://via.placeholder.com/600/4d564d",
+=    "thumbnailUrl": "https://via.placeholder.com/150/4d564d"
+  },
+  {
+    "albumId": 1,
+    "id": 37,
+6    "title": "totam voluptas iusto deserunt dolores",
+5    "url": "https://via.placeholder.com/600/ea51da",
+=    "thumbnailUrl": "https://via.placeholder.com/150/ea51da"
+  },
+  {
+    "albumId": 1,
+    "id": 38,
+G    "title": "natus magnam iure rerum pariatur molestias dolore nisi",
+5    "url": "https://via.placeholder.com/600/4f5b8d",
+=    "thumbnailUrl": "https://via.placeholder.com/150/4f5b8d"
+  },
+  {
+    "albumId": 1,
+    "id": 39,
+7    "title": "molestiae nam ullam et rerum doloribus",
+5    "url": "https://via.placeholder.com/600/1e71a2",
+=    "thumbnailUrl": "https://via.placeholder.com/150/1e71a2"
+  },
+  {
+    "albumId": 1,
+    "id": 40,
+Q    "title": "est quas voluptates dignissimos sint praesentium nisi recusandae",
+5    "url": "https://via.placeholder.com/600/3a0b95",
+=    "thumbnailUrl": "https://via.placeholder.com/150/3a0b95"
+  },
+  {
+    "albumId": 1,
+    "id": 41,
+G    "title": "in voluptatem doloremque cum atque architecto deleniti",
+5    "url": "https://via.placeholder.com/600/659403",
+=    "thumbnailUrl": "https://via.placeholder.com/150/659403"
+  },
+  {
+    "albumId": 1,
+    "id": 42,
+I    "title": "voluptatibus a autem molestias voluptas architecto culpa",
+5    "url": "https://via.placeholder.com/600/ca50ac",
+=    "thumbnailUrl": "https://via.placeholder.com/150/ca50ac"
+  },
+  {
+    "albumId": 1,
+    "id": 43,
+2    "title": "eius hic autem ad beatae voluptas",
+5    "url": "https://via.placeholder.com/600/6ad437",
+=    "thumbnailUrl": "https://via.placeholder.com/150/6ad437"
+  },
+  {
+    "albumId": 1,
+    "id": 44,
+K    "title": "neque eum provident et inventore sed ipsam dignissimos quo",
+5    "url": "https://via.placeholder.com/600/29fe9f",
+=    "thumbnailUrl": "https://via.placeholder.com/150/29fe9f"
+  },
+  {
+    "albumId": 1,
+    "id": 45,
+N    "title": "praesentium fugit quis aut voluptatum commodi dolore corrupti",
+5    "url": "https://via.placeholder.com/600/c4084a",
+=    "thumbnailUrl": "https://via.placeholder.com/150/c4084a"
+  },
+  {
+    "albumId": 1,
+    "id": 46,
+H    "title": "quidem maiores in quia fugit dolore explicabo occaecati",
+4    "url": "https://via.placeholder.com/600/e9b68",
+<    "thumbnailUrl": "https://via.placeholder.com/150/e9b68"
+  },
+  {
+    "albumId": 1,
+    "id": 47,
+    "title": "et soluta est",
+5    "url": "https://via.placeholder.com/600/b4412f",
+=    "thumbnailUrl": "https://via.placeholder.com/150/b4412f"
+  },
+  {
+    "albumId": 1,
+    "id": 48,
+    "title": "ut esse id",
+5    "url": "https://via.placeholder.com/600/68e0a8",
+=    "thumbnailUrl": "https://via.placeholder.com/150/68e0a8"
+  },
+  {
+    "albumId": 1,
+    "id": 49,
+9    "title": "quasi quae est modi quis quam in impedit",
+5    "url": "https://via.placeholder.com/600/2cd88b",
+=    "thumbnailUrl": "https://via.placeholder.com/150/2cd88b"
+  },
+  {
+    "albumId": 1,
+    "id": 50,
+=    "title": "et inventore quae ut tempore eius voluptatum",
+5    "url": "https://via.placeholder.com/600/9e59da",
+=    "thumbnailUrl": "https://via.placeholder.com/150/9e59da"
+  }
+]
+
+\02:14:31.285 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 757
+1 < 404
+(1 < Date: Thu, 30 Nov 2023 07:14:31 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+÷1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701328471&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S7RYWVN2Lb4JT8iIDLINU4Z3B9qduw7aV8IuY%2BiNErI%3D"}]}
+≠1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701328471&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S7RYWVN2Lb4JT8iIDLINU4Z3B9qduw7aV8IuY%2BiNErI%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+"1 < X-Ratelimit-Reset: 1701328510
+"1 < Vary: Origin, Accept-Encoding
++1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+$1 < X-Content-Type-Options: nosniff
+,1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 82e14b40fc3a2878-MIA
+!1 < alt-svc: h3=":443"; ma=86400
+{}
+
+\02:14:31.339 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 810
+1 < 201
+(1 < Date: Thu, 30 Nov 2023 07:14:31 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 34
+1 < Connection: keep-alive
+÷1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701328471&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S7RYWVN2Lb4JT8iIDLINU4Z3B9qduw7aV8IuY%2BiNErI%3D"}]}
+≠1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701328471&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S7RYWVN2Lb4JT8iIDLINU4Z3B9qduw7aV8IuY%2BiNErI%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+"1 < X-Ratelimit-Reset: 1701328510
+:1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
++1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+,1 < Access-Control-Expose-Headers: Location
+H1 < Location: https://jsonplaceholder.typicode.com/albums/1/photos/5001
+$1 < X-Content-Type-Options: nosniff
+-1 < Etag: W/"22-Xm7OMDH2OkIO+NlCbffJWSalW2o"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 82e14b4138aa5c7f-MIA
+!1 < alt-svc: h3=":443"; ma=86400
+{
+  "albumId": "1",
+  "id": 5001
+}
+
+D02:14:31.373 [pool-1-thread-3] INFO  com.intuit.karate - Expires: [
+  "-1"
+]
+ 
+N02:14:31.462 [pool-1-thread-3] INFO  com.intuit.karate - Response Time: 721 
+N02:14:31.462 [pool-1-thread-1] INFO  com.intuit.karate - Response Time: 757 
+R02:14:31.464 [pool-1-thread-1] INFO  com.intuit.karate - Connected successfully 
+C02:14:31.467 [pool-1-thread-1] INFO  com.intuit.karate - Server: [
+  "cloudflare"
+]
+ 
+G02:14:31.469 [pool-1-thread-1] INFO  com.intuit.karate - Connection: [
+  "keep-alive"
+]
+ 
+F02:14:31.469 [pool-1-thread-3] INFO  com.intuit.karate - Host: null 
+J02:14:31.471 [pool-1-thread-3] INFO  com.intuit.karate - Location: null 
+N02:14:31.485 [pool-1-thread-4] INFO  com.intuit.karate - Response Time: 810 
+F02:14:31.489 [pool-1-thread-4] INFO  com.intuit.karate - Host: null 
+B02:14:31.490 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+=1 > PUT https://jsonplaceholder.typicode.com/albums/1/photos
+'1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+:1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+"1 > Accept-Encoding: gzip,deflate
+
+
+E02:14:31.492 [pool-1-thread-4] INFO  com.intuit.karate - Location: [
+>  "https://jsonplaceholder.typicode.com/albums/1/photos/5001"
+]
+ 
+\02:14:31.818 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 327
+1 < 404
+(1 < Date: Thu, 30 Nov 2023 07:14:31 GMT
+21 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+÷1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701328471&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S7RYWVN2Lb4JT8iIDLINU4Z3B9qduw7aV8IuY%2BiNErI%3D"}]}
+≠1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701328471&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=S7RYWVN2Lb4JT8iIDLINU4Z3B9qduw7aV8IuY%2BiNErI%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+"1 < X-Ratelimit-Reset: 1701328510
+"1 < Vary: Origin, Accept-Encoding
++1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+$1 < X-Content-Type-Options: nosniff
+,1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+!1 < CF-RAY: 82e14b445b69370c-MIA
+!1 < alt-svc: h3=":443"; ma=86400
+{}
+
+N02:14:31.820 [pool-1-thread-1] INFO  com.intuit.karate - Response Time: 327 
+F02:14:31.822 [pool-1-thread-1] INFO  com.intuit.karate - Host: null 
+C02:14:31.823 [pool-1-thread-1] INFO  com.intuit.karate - Pragma: [
+  "no-cache"
+]
+ 
+C02:14:31.824 [pool-1-thread-1] INFO  com.intuit.karate - Server: [
+  "cloudflare"
+]
+ 
+:---------------------------------------------------------
+Dfeature: classpath:jsonplaceholderalbum/delete/album-delete.feature
+7scenarios:  1 | passed:  1 | failed:  0 | time: 1,5654
+:---------------------------------------------------------
+
+°02:14:32.251 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 5 (4 remaining) classpath:jsonplaceholderalbum/delete/album-delete.feature
+:---------------------------------------------------------
+>feature: classpath:jsonplaceholderalbum/get/album-get.feature
+7scenarios:  1 | passed:  1 | failed:  0 | time: 1,6636
+:---------------------------------------------------------
+
+õ02:14:32.323 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (3 remaining) classpath:jsonplaceholderalbum/get/album-get.feature
+:---------------------------------------------------------
+@feature: classpath:jsonplaceholderalbum/head/album-head.feature
+7scenarios:  1 | passed:  1 | failed:  0 | time: 1,5666
+:---------------------------------------------------------
+
+ù02:14:32.374 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:jsonplaceholderalbum/head/album-head.feature
+:---------------------------------------------------------
+@feature: classpath:jsonplaceholderalbum/post/album-post.feature
+7scenarios:  1 | passed:  1 | failed:  0 | time: 1,6525
+:---------------------------------------------------------
+
+ù02:14:32.422 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:jsonplaceholderalbum/post/album-post.feature
+:---------------------------------------------------------
+>feature: classpath:jsonplaceholderalbum/put/album-put.feature
+7scenarios:  1 | passed:  1 | failed:  0 | time: 0,3387
+:---------------------------------------------------------
+
+õ02:14:32.468 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 5 of 5 (0 remaining) classpath:jsonplaceholderalbum/put/album-put.feature
+Karate version: 1.2.0.RC4
+8======================================================
+6elapsed:   4,62 | threads:    4 | thread time: 6,79 
+4features:     5 | skipped:    0 | efficiency: 0,37
+-scenarios:    5 | passed:     5 | failed: 0
+8======================================================
+
+FHTML report: (paste into browser to view) | Karate version: 1.2.0.RC4
+qfile:///C:/Users/Juanes%20BC/Documents/Repositorios/proyectoFinalKarate/build/karate-reports/karate-summary.html
+D===================================================================
+

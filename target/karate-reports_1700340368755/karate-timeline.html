@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/users\/get\/user-get[1:3]","start":1700323585358,"end":1700323587412,"title":"src\/test\/java\/users\/get\/user-get[1:3] 11:06:25.358-11:06:27.412 Get a user"},{"id":2,"group":1,"content":"src\/test\/java\/users\/get\/user-get[2:15]","start":1700323587418,"end":1700323587928,"title":"src\/test\/java\/users\/get\/user-get[2:15] 11:06:27.418-11:06:27.928 Post a user"},{"id":3,"group":1,"content":"src\/test\/java\/users\/get\/user-get[3:21]","start":1700323587941,"end":1700323588414,"title":"src\/test\/java\/users\/get\/user-get[3:21] 11:06:27.941-11:06:28.414 Edit a user"},{"id":4,"group":1,"content":"src\/test\/java\/users\/get\/user-get[4:27]","start":1700323588420,"end":1700323588930,"title":"src\/test\/java\/users\/get\/user-get[4:27] 11:06:28.420-11:06:28.930 Delete a user"},{"id":5,"group":1,"content":"src\/test\/java\/users\/get\/user-get[5:34]","start":1700323588943,"end":1700323589115,"title":"src\/test\/java\/users\/get\/user-get[5:34] 11:06:28.943-11:06:29.115 Modificar parcialmente un usuario (PATCH)","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/users\/get\/user-get[6:41]","start":1700323589125,"end":1700323589129,"title":"src\/test\/java\/users\/get\/user-get[6:41] 11:06:29.125-11:06:29.129 Obtener encabezados (HEAD)","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/users\/get\/user-get[7:47]","start":1700323589138,"end":1700323589445,"title":"src\/test\/java\/users\/get\/user-get[7:47] 11:06:29.138-11:06:29.445 Establecer una conexión (CONNECT)"},{"id":8,"group":1,"content":"src\/test\/java\/users\/get\/user-get[8:54]","start":1700323589457,"end":1700323589462,"title":"src\/test\/java\/users\/get\/user-get[8:54] 11:06:29.457-11:06:29.462 Obtener opciones (OPTIONS)","className":"failed"},{"id":9,"group":1,"content":"src\/test\/java\/users\/get\/user-get[9:61]","start":1700323589473,"end":1700323589476,"title":"src\/test\/java\/users\/get\/user-get[9:61] 11:06:29.473-11:06:29.476 Realizar traza (TRACE)","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
